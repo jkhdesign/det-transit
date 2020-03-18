@@ -71,12 +71,15 @@ ul li:before {
 	left: 0;
 }
 
+li {
+  padding-bottom: 0.5em;
+}
+
 .indent {
   margin-left: 4rem;
 }
 
 .title {
-  margin-left: 4rem;
   padding: 1rem 0;
 }
 
@@ -88,9 +91,10 @@ ul li:before {
   padding: 1em 0;
 }
 
-p > a::before {
-  content: "\273A";
-  padding-right: 0.25em;
+p > a::after {
+  content: "\2197";
+  padding-left: 0.25em;
+  font-size: .6em
 }
 
 #content {
@@ -117,6 +121,11 @@ img {
 #hero {
   position: relative;
   width: 100%;
+}
+
+.inline-img {
+  padding: 1.5em 0;
+  width: 150%;
 }
 
 ::selection {
