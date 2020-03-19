@@ -91,7 +91,7 @@ li {
   padding: 1em 0;
 }
 
-p > a::after {
+p > a::after, li > a::after {
   content: "\2197";
   padding-left: 0.25em;
   font-size: .6em
