@@ -131,3 +131,21 @@ img {
 ::selection {
   background-color: #c4ff00;
 }
+
+@media only screen and (max-width: 600px) {
+  #content {
+    width: 85%;
+  }
+
+  #nav, #footer {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 5em;
+  }
+
+  .pull, .inline-img {
+    width: 100%;
+  }
+}
